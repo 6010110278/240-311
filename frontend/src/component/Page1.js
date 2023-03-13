@@ -14,7 +14,7 @@ function Page1() {
   }
 
   return (
-    <motion.div initial={{width: 0}} animate={{width: "100%"}} exit={{x: window.innerWidth, transition: {duration: 0.1}}}>
+    <motion.div initial={{y: 500, opacity: 0}} animate={{y: 0, opacity: 1,}}>
       <div class="from-box">
         <div class="from-name">
           <label>กรุณาใส่ชื่อ</label>

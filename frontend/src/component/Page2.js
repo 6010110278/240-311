@@ -7,6 +7,7 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import Axios from 'axios';
+import { motion } from "framer-motion";
 
 function Page2() {
 
@@ -51,7 +52,7 @@ function Page2() {
   };
 
   return (
-    <div className='App'>
+    <motion.div className='App' initial={{y: 500, opacity: 0}} animate={{y: 0, opacity: 1,}}>
       <h1>{personal}</h1>
       <div className='topDetail'>
       <div className='sumList'>
@@ -94,7 +95,7 @@ function Page2() {
             </div>
           ))}
       </div>
-      </div>
+    </motion.div>
   );
 }
 
