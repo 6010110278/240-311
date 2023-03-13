@@ -8,7 +8,7 @@ function Popup(props){
     return (props.trigger) ? (
         <div className="popup">
             <div className="popup-inner">
-                <h1>{props.message}</h1>
+                <h1 className="message">{props.message}</h1>
                 <button className="next-btn" onClick={() => {navigate("/note")}}>ถัดไป</button>
             </div>
         </div>

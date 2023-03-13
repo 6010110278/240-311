@@ -13,7 +13,7 @@
 
 .popup-inner {
     position: relative;
-    padding: 32px;
+    padding: 30px;
     width: 100%;
     max-width: 400px;
     background-color:  rgb(2, 0, 114);
@@ -24,11 +24,12 @@
 }
 
 .popup-inner .next-btn {
-    margin: 20px;
-    padding: 10px 20px 10px 20px;
+    margin: 35px 0px 0px;
     border-radius: 20px;
     border: none;
-    background-color: #30e618;
     font-weight: bold;
     font-size: 20px;
+}
+.popup-inner .message {
+    margin: 5px 0px 20px;
 }
