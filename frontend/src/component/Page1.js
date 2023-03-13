@@ -11,7 +11,7 @@ function Page1() {
   const [popup, setPopup] = useState(false);
   const [error, setError] = useState(false);
   const addName = () => {
-    if(name.length === 0){
+    if(name.length === 0 || name === ' '){
       setError(true);
     }
     else {
