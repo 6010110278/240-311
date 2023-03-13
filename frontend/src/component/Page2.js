@@ -56,7 +56,7 @@ function Page2() {
       <h1>{personal}</h1>
       <div className='topDetail'>
       <div className='sumList'>
-        <p>Number of notes: {numList} Notes.</p>
+        <p>Number of notes : {numList} Notes.</p>
       </div>
 
       <div>
