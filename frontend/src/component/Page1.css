@@ -28,7 +28,7 @@ body {
     border-radius: 10px;
     border: none;
     background-color: rgb(25, 105, 255);
-    margin: 30px 0px 30px 0px;
+    margin: 30px 0px 0px 0px;
 }
 
 .from-name input[type=text]:focus{
@@ -36,17 +36,18 @@ body {
     background-color: rgb(122, 224, 255);
 }
 
-.from-name button{
+.from-name #button1{
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
     border: none;
     background-color: #30e618;
     font-weight: bold;
     font-size: 20px;
-    margin: 0px 0px 30px 0px;
+    margin: 30px 0px 30px 0px;
 }
 
-.from-name button:hover{
+.from-name #button1:hover{
     outline: 0;
-    background-color: #047500;
+    background-color: #036300;
+    color: white;
 }
