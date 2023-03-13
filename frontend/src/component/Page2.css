@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    max-height: auto;
+    max-width: auto;
+    margin: auto;
+    padding: 0 1rem;
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.topDetail {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 10%;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+.sumList {
+    position: relative;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    word-wrap: break-word;
+    color: white;
+}
+
+.inputAddNotes {
+    width: auto;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+input {
+    margin: 0.5rem;
+    width: 70%;
+    padding: 0.6rem 0.5rem;
+    border: 1px solid #afafaf;
+    border-radius: 6px;
+}
+
+.addbtn {
+    background-color: #5B8DF0;
+    color: #fff;
+    padding: 0.6rem 0.5rem;
+    border: 0.5px #5B8DF0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.delbtn {
+    background-color: #D95050;
+    border: none;
+    color: #fff;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.list {
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    position: relative;
+    width: 50%;
+    margin-top: 0.5rem;
+    background-color: #F7EBB5;
+    color: #000000;
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+    word-wrap: break-word;
+}
+
+.btn {
+    position: relative;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+    background-color: #5B8DF0;
+    position: relative;
+    color: #fff;
+    padding: 0.3rem 0.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    width: 55%;
+}
+
+button {
+    font-weight: bold;
+}
