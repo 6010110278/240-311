@@ -23,7 +23,7 @@ function Page2() {
   }, [notes]);
 
   useEffect(() => {
-    Axios.post('http://localhost:5000/api/note').then((response)=> {setPersonal(response.data);});
+    Axios.get('http://localhost:5000/api/user').then((response)=> {setPersonal(response.data);});
   }, []);
 
   const handleSubmit = (event) => {

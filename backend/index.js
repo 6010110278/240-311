@@ -2,6 +2,7 @@ const timeStamp = require('./timeStamp');
 const express = require('express');
 const app = express();
 const cors = require('cors');
+var notes = [];
 var user = {};
 
 app.use(cors());
@@ -13,10 +14,9 @@ app.post('/api/user',(req,res)=>{
     console.log(timeStamp() + ": user is " + req.body.name);
 })
 
-app.post('/api/note',(req,res)=>{
+app.get('/api/user',(req,res)=>{
     res.send("บันทึกของ " + user.name);
 })
-
 
 app.listen(5000,()=>{
     console.log("server run port 5000");
